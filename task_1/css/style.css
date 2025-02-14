@@ -1,0 +1,40 @@
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    color: #212529;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    cursor: pointer;
+    width: 20%;
+}
+
+.btn-default {
+    background-color: #f8f9fa;
+    border-color: #ddd;
+    color: #444;
+}
+
+.red_circle {
+    width: 40px;
+    height: 40px;
+    background: #ff0000;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.green_circle {
+    width: 40px;
+    height: 40px;
+    background: #008000ff;
+    border-radius: 50%;
+    margin-top: 10px;
+}
