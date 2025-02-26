@@ -20,7 +20,7 @@ $(document).ready(function () {
     $.getJSON('https://api.ipify.org?format=json', function (dataNetwork) {
         //console.log(dataNetwork);
         /*при успешном получении IP, получаем остальные данные согласно заданию*/
-        $.getJSON(`https://ipapi.co/${dataNetwork.ip}/json`, function (dataGeo) {
+        $.getJSON(`https://ipinfo.io/${dataNetwork.ip}/json`, function (dataGeo) {
 
             /*для удобства заносим полученную информацию в объект information*/
             let information = {
